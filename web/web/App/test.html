@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script src="Scripts/angular.min.js"></script>
+</head>
+<body ng-app="app">
+<div ng-controller="testctrl">
+    <input type="text" ng-model="a">
+    <input type="text" ng-model="b">
+    {{toint(a)+toint(b)}}
+</div>
+</body>
+</html>
+<script>
+    var app = angular.module("app", []);
+    app.controller("testctrl", function ($scope) {
+        $scope.a=0;
+        $scope.b=0;
+        $scope.toint=function (str) {
+            return parseInt(str);
+        }
+    })
+</script>

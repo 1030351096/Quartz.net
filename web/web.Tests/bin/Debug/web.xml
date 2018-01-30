@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>web</name>
+    </assembly>
+    <members>
+        <member name="M:web.Controllers.PhoneController.str">
+            <summary>
+            获取字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:web.Models.ApiResult">
+            <summary>
+            接口返回结果
+            </summary>
+        </member>
+        <member name="P:web.Models.ApiResult.StatusCode">
+            <summary>
+            返回状态码
+            </summary>
+        </member>
+        <member name="P:web.Models.ApiResult.Data">
+            <summary>
+            返回数据
+            </summary>
+        </member>
+        <member name="P:web.Models.ApiResult.Message">
+            <summary>
+            错误提示
+            </summary>
+        </member>
+    </members>
+</doc>
